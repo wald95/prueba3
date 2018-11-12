@@ -1,0 +1,1752 @@
+<!doctype html>
+<html>
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<!--logo de la parte del navegador-->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<!--logo de la parte del navegador-->
+		<title>UCM</title>
+		
+		<style type="text/css">
+		
+			/*todo el estilo de la pagina*/
+	        
+	        *{padding:0;
+	          margin: 0;}
+
+	        nav{border: 1px solid;
+		        padding: .5em;background-color: red;}  	
+
+            .nav {display: flex;
+	              color: white; 
+	              list-style: none;
+	              margin:0 6px;
+	              }
+
+	        nav a{text-decoration: none; 
+	              color: white; display: flex;
+	              }
+	        
+	        nav li{padding-right: 30px;
+	               padding-left: 30px} 
+	          
+	        header{background-color:black}
+	      
+	        #cajaprincipal{background-color: black; display: flex;
+		                   border: px solid red; height: 1% }
+
+		                   
+          div{border: px solid white}
+	        
+          body{background-color: black}
+	        
+	        #cajaprincipal2{background-color: black; display: flex; border: px solid red; height: 1% }
+          
+          #cajaprincipal3{background-color: black; display: flex; border: px solid red; height: 1% }
+
+          #cajaprincipal4{background-color: black; display: flex; border: px solid red; height: 1% }
+
+          #cajaprincipal5{background-color: black; display: flex; border: px solid red; height: 1% }
+
+          #cajaprincipal6{background-color: black; display: flex; border: px solid red; height: 1% }
+          
+
+          
+          div .hulkhover,.ironmanhover,.thehulkhover,.ironman2hover{padding-right: 30px;
+                                                                    padding-left: 30px; border: px solid white; height: 10em} 
+                                                                    
+          div .thorhover, .cphover, .avengershover, .ironman3hover{padding-right: 30px;
+                                                   padding-left: 30px; border: px solid white; height: 10em}
+                                                   
+          div .thor2hover, .cap3hover, .guardianeshover, .avengers2hover {padding-right: 30px;
+                                                   padding-left: 30px; border: px solid white; height: 10em} 
+          
+          div .antmanhover, .civilwarhover, .doctorhover, .guardianes2hover {padding-right: 30px;
+                                                   padding-left: 30px; border: px solid white; height: 10em}
+                                                   
+          div .spidermanhover, .thor3hover, .blackhover, .avengers3hover {padding-right: 30px;
+                                                   padding-left: 30px; border: px solid white; height: 10em}
+                                                   
+          div .antman2hover, .capitanahover, .avengers4hover, .spiderman2hover {padding-right: 30px;
+                                                   padding-left: 30px; border: px solid white; height: 10em}                                                                                                                           
+                                                                                                                                                          
+           
+
+         /*todo el estilo de la pagina*/
+	       
+
+	       /*efecto hover de civil war*/
+
+             
+             
+             .civilwarhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .civilwarhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .civilwarhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .civilwarhover .img-content img{width: 100%}
+
+             .civilwarhover .contenedor:hover .texto{left: 0;}
+         
+             .civilwarhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .civilwarhover h1{padding: 1rem 3rem;
+         	                   background: transparent;
+         	                   border-radius: 5px;
+         	                   border: 1px solid red;
+         	                   color: red;
+         	                   cursor: pointer;}                             
+         
+             .civilwarhover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .civilwarhover h1 a{text-decoration: none;
+                                 color: white;} 
+          
+          /*efecto hover de civil war*/
+         
+          /*efecto hover de hulk*/
+
+          .hulkhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .hulkhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .hulkhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .hulkhover .img-content img{width: 100%}
+
+             .hulkhover .contenedor:hover .texto{left: 0;}
+         
+             .hulkhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .hulkhover h1{padding: 1rem 3rem;
+         	                   background: transparent;
+         	                   border-radius: 5px;
+         	                   border: 1px solid green;
+         	                   color: green;
+         	                   cursor: pointer;}                             
+         
+             .hulkhover h1:hover{background: green;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .hulkhover h1 a{text-decoration: none;
+                                 color: white;}
+             
+             /*efecto hover de hulk*/
+
+             /*efecto hover de iron man*/
+             .ironmanhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .ironmanhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .ironmanhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .ironmanhover .img-content img{width: 100%}
+
+             .ironmanhover .contenedor:hover .texto{left: 0;}
+         
+             .ironmanhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .ironmanhover h1{padding: 1rem 3rem;
+         	                   background: transparent;
+         	                   border-radius: 5px;
+         	                   border: 1px solid red;
+         	                   color: red;
+         	                   cursor: pointer;}                             
+         
+             .ironmanhover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .ironmanhover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de iron man*/
+
+             /*efecto hover en the incredible hulk*/
+
+             .thehulkhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .thehulkhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .thehulkhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .thehulkhover .img-content img{width: 100%}
+
+             .thehulkhover .contenedor:hover .texto{left: 0;}
+         
+             .thehulkhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .thehulkhover h1{padding: 1rem 3rem;
+         	                   background: transparent;
+         	                   border-radius: 5px;
+         	                   border: 1px solid green;
+         	                   color: green;
+         	                   cursor: pointer;}                             
+         
+             .thehulkhover h1:hover{background: green;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .thehulkhover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover en the incredible hulk*/
+
+             /*efecto hover de ironman 2*/
+             .ironman2hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .ironman2hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .ironman2hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .ironman2hover .img-content img{width: 100%}
+
+             .ironman2hover .contenedor:hover .texto{left: 0;}
+         
+             .ironman2hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .ironman2hover h1{padding: 1rem 3rem;
+         	                   background: transparent;
+         	                   border-radius: 5px;
+         	                   border: 1px solid red;
+         	                   color: red;
+         	                   cursor: pointer;}                             
+         
+             .ironman2hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .ironman2hover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de ironman 2*/
+
+             /*efecto hover de thor*/
+
+             .thorhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .thorhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .thorhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .thorhover .img-content img{width: 100%}
+
+             .thorhover .contenedor:hover .texto{left: 0;}
+         
+             .thorhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .thorhover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid #1EB2DA  ;
+                             color: #1EB2DA  ;
+                             cursor: pointer;}                             
+         
+             .thorhover h1:hover{background: #1EB2DA  ;
+                                     color: #1EB2DA  ;
+                                     transition: all 300ms;}
+        
+             .thorhover h1 a{text-decoration: none;
+                                 color: white;}
+             
+             /*efecto hover de thor*/
+
+             /*efecto hover de *capitan america*/
+             
+             .cphover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .cphover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .cphover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .cphover .img-content img{width: 100%}
+
+             .cphover .contenedor:hover .texto{left: 0;}
+         
+             .cphover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .cphover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid #090CC1;
+                             color: #090CC1;
+                             cursor: pointer;}                             
+         
+             .cphover h1:hover{background: #090CC1;
+                                     color: #090CC1;
+                                     transition: all 300ms;}
+        
+             .cphover h1 a{text-decoration: none;
+                                 color: white;}
+             /*efecto hover de *capitan america*/
+
+             /*efecto hover de avengers*/
+
+             .avengershover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .avengershover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .avengershover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .avengershover .img-content img{width: 100%}
+
+             .avengershover .contenedor:hover .texto{left: 0;}
+         
+             .avengershover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .avengershover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid #878788;
+                             color: #878788;
+                             cursor: pointer;}                             
+         
+             .avengershover h1:hover{background: #878788;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .avengershover h1 a{text-decoration: none;
+                                 color: white;}
+             
+             /*efecto hover de avengers*/
+
+             /* efecto hover de ironman3*/
+              .ironman3hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .ironman3hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .ironman3hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .ironman3hover .img-content img{width: 100%}
+
+             .ironman3hover .contenedor:hover .texto{left: 0;}
+         
+             .ironman3hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .ironman3hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .ironman3hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .ironman3hover h1 a{text-decoration: none;
+                                 color: white;}
+             /* efecto hover de ironman3*/
+
+             /*efecto hover de thor3*/
+
+             .thor2hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .thor2hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .thor2hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .thor2hover .img-content img{width: 100%}
+
+             .thor2hover .contenedor:hover .texto{left: 0;}
+         
+             .thor2hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .thor2hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .thor2hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .thor2hover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de thor3*/
+
+             /*efecto hover de cap3*/
+
+             .cap3hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .cap3hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .cap3hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .cap3hover .img-content img{width: 100%}
+
+             .cap3hover .contenedor:hover .texto{left: 0;}
+         
+             .cap3hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .cap3hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid grey;
+                             color: grey;
+                             cursor: pointer;}                             
+         
+             .cap3hover h1:hover{background: grey;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .cap3hover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de cap3*/
+
+             /*efecto hover de guardianes*/
+             
+             .guardianeshover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .guardianeshover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .guardianeshover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .guardianeshover .img-content img{width: 100%}
+
+             .guardianeshover .contenedor:hover .texto{left: 0;}
+         
+             .guardianeshover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .guardianeshover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .guardianeshover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .guardianeshover h1 a{text-decoration: none;
+                                 color: white;}
+             
+             /*efecto hover de guardianes*/
+             
+             
+             /*efecto hover de avengers 2*/
+             
+             .avengers2hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .avengers2hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .avengers2hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .avengers2hover .img-content img{width: 100%}
+
+             .avengers2hover .contenedor:hover .texto{left: 0;}
+         
+             .avengers2hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .avengers2hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid #C20000  ;
+                             color: #C20000  ;
+                             cursor: pointer;}                             
+         
+             .avengers2hover h1:hover{background: #C20000  ;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .avengers2hover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de avengers2*/
+
+             /*efecto hover de antman*/
+
+             .antmanhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .antmanhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .antmanhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .antmanhover .img-content img{width: 100%}
+
+             .antmanhover .contenedor:hover .texto{left: 0;}
+         
+             .antmanhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .antmanhover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .antmanhover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .antmanhover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de antman*/
+
+             /*efecto hover de doctor*/
+
+             .doctorhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .doctorhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .doctorhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .doctorhover .img-content img{width: 100%}
+
+             .doctorhover .contenedor:hover .texto{left: 0;}
+         
+             .doctorhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .doctorhover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .doctorhover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .doctorhover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de doctor*/
+
+             /*efecto hover de guardianes2*/
+             .guardianes2hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .guardianes2hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .guardianes2hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .guardianes2hover .img-content img{width: 100%}
+
+             .guardianes2hover .contenedor:hover .texto{left: 0;}
+         
+             .guardianes2hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .guardianes2hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .guardianes2hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .guardianes2hover h1 a{text-decoration: none;
+                                 color: white;}
+             /*efecto hover de guardianes*/
+
+             /*efecto hover de spiderman*/
+             
+             .spidermanhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .spidermanhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .spidermanhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .spidermanhover .img-content img{width: 100%}
+
+             .spidermanhover .contenedor:hover .texto{left: 0;}
+         
+             .spidermanhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .spidermanhover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .spidermanhover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .spidermanhover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de spiderman*/
+
+             /*efecto hover de thor3*/
+             .thor3hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .thor3hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .thor3hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .thor3hover .img-content img{width: 100%}
+
+             .thor3hover .contenedor:hover .texto{left: 0;}
+         
+             .thor3hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .thor3hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .thor3hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .thor3hover h1 a{text-decoration: none;
+                                 color: white;}
+             /*efecto hover de thor3*/
+             
+             /*efecto hover de black*/
+
+             .blackhover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .blackhover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .blackhover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .blackhover .img-content img{width: 100%}
+
+             .blackhover .contenedor:hover .texto{left: 0;}
+         
+             .blackhover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .blackhover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid #490CBA  ;
+                             color: #490CBA  ;
+                             cursor: pointer;}                             
+         
+             .blackhover h1:hover{background: #490CBA  ;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .blackhover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de black*/
+
+             /*efecto hover de avengers3*/
+
+             .avengers3hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .avengers3hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .avengers3hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .avengers3hover .img-content img{width: 100%}
+
+             .avengers3hover .contenedor:hover .texto{left: 0;}
+         
+             .avengers3hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .avengers3hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid orange;
+                             color: orange;
+                             cursor: pointer;}                             
+         
+             .avengers3hover h1:hover{background: orange;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .avengers3hover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de avengers3*/
+
+             /*efecto hover de antman2*/
+
+             .antman2hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .antman2hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .antman2hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .antman2hover .img-content img{width: 100%}
+
+             .antman2hover .contenedor:hover .texto{left: 0;}
+         
+             .antman2hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .antman2hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .antman2hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .antman2hover h1 a{text-decoration: none;
+                                 color: white;}
+
+             /*efecto hover de antman2*/
+
+             /*efecto hover de capitana*/
+             .capitanahover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .capitanahover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .capitanahover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .capitanahover .img-content img{width: 100%}
+
+             .capitanahover .contenedor:hover .texto{left: 0;}
+         
+             .capitanahover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .capitanahover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .capitanahover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .capitanahover h1 a{text-decoration: none;
+                                 color: white;}
+             /*efecto hover de capitana*/
+
+             /*efecto hover de avengers4*/
+             .avengers4hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .avengers4hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .avengers4hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .avengers4hover .img-content img{width: 100%}
+
+             .avengers4hover .contenedor:hover .texto{left: 0;}
+         
+             .avengers4hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .avengers4hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid #490CBA  ;
+                             color: #490CBA  ;
+                             cursor: pointer;}                             
+         
+             .avengers4hover h1:hover{background: #490CBA  ;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .avengers4hover h1 a{text-decoration: none;
+                                 color: white;}
+             /*efecto hover de avengers4*/
+
+             /*efecto hover de spiderman2*/
+             .spiderman2hover body{height: 100vh;
+                                  background: #eee;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items:center;} 
+         
+             .spiderman2hover .contenedor{width: 250px;
+                                        height: 250px;
+                                        padding: 1rem; }   
+         
+             .spiderman2hover .img-content{position: relative;
+                                         overflow: hidden;}  
+         
+             .spiderman2hover .img-content img{width: 100%}
+
+             .spiderman2hover .contenedor:hover .texto{left: 0;}
+         
+             .spiderman2hover .texto{position: absolute;
+                                   top: 0;
+                                   left: -100%;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: rgba(0, 0, 0, .9);
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;}
+               
+             .spiderman2hover h1{padding: 1rem 3rem;
+                             background: transparent;
+                             border-radius: 5px;
+                             border: 1px solid red;
+                             color: red;
+                             cursor: pointer;}                             
+         
+             .spiderman2hover h1:hover{background: red;
+                                     color: #fff;
+                                     transition: all 300ms;}
+        
+             .spiderman2hover h1 a{text-decoration: none;
+                                 color: white;}
+             /*efecto hover de spiderman2*/
+
+		</style>
+	
+	</head>
+
+	<body>
+		
+		<header>
+			
+			<div><img src="49518.jpg"></div>
+		
+		</header>
+
+		<nav>
+         
+           <ul class="nav">
+	
+		        <li class="tres"><font face="Masked Marvel"><a href="#">Noticias</a></font></li> 
+		        <li class="cuatro"><font face="Masked Marvel"><a href="#">Series</a></font></li>
+		        <li class="cinco"><font face="Masked Marvel"><a href="#">Galeria</a></font></li>	
+         
+           </ul>
+
+		</nav>
+		
+		<div id="cajaprincipal">
+		  
+		  <!--sipnosis de hulk-->
+		<div class="hulkhover">
+		  	
+             <div  class="contenedor">
+	  
+	             <div class="img-content">
+	   
+	                 <img src="Hulk_movie_logo.jpg">
+                 
+                 <div class="texto">
+        
+                     <h1><a href="Hulk.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                 </div>
+      
+                 </div>
+     
+             </div>
+
+		  </div>
+		  <!--sipnosis de hulk-->
+          
+          <!--sipnosis de iroman-->
+          <div class="ironmanhover">
+		  	
+             <div  class="contenedor">
+	  
+	             <div class="img-content">
+	   
+	                 <img src="Iron_Man_Título_Logo.png">
+                 
+                 <div class="texto">
+        
+                     <h1><a href="ironman.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                 </div>
+      
+                 </div>
+     
+             </div>
+
+		  </div>
+
+
+
+          <!--sipnosis de iroman-->
+          
+          <!--sipnosis de the incredible hulk-->
+          
+          <div class="thehulkhover">
+		  	
+             <div  class="contenedor">
+	  
+	             <div class="img-content">
+	   
+	                 <img src="The-incredible-hulk-logo.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="the incredible hulk.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+		  </div>
+          
+
+          <!--sipnosis de the incredible hulk-->
+          <!--sipnosis de iron man 2-->
+          <div class="ironman2hover">
+		  	
+             <div  class="contenedor">
+	  
+	             <div class="img-content">
+	   
+	                 <img src="ironman_logo.jpg">
+                 
+                 <div class="texto">
+        
+                     <h1><a href="iron man2.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                 </div>
+      
+                </div>
+     
+             </div>
+
+		        </div>
+		  <!--sipnosis de ironman 2-->
+
+      </div>
+          
+          <div id="cajaprincipal2">
+
+          <!--sipnosis de thor-->
+          
+          <div class="thorhover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="thor.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="thor.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+           </div>
+          
+
+          <!--sipnosis de thor-->
+
+          <!--sipnosis de capitan america-->
+          <div class="cphover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Captain_America_The_First_Avenger_Logo.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Capitan America.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+           </div>
+          <!--sipnosis de capitan america-->
+          
+          <!--sipnosis de avengers-->
+          <div class="avengershover">
+        
+             <div  class="contenedor">
+  
+               <div class="img-content">
+     
+                   <img src="avengers1.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Avengers.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+           </div>
+          <!--sipnosis de avengers-->
+          
+          <!--sipnosis de ironman3-->
+          <div class="ironman3hover">
+        
+             <div  class="contenedor">
+  
+               <div class="img-content">
+     
+                   <img src="iron man3.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Iron Man 3.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+           </div>
+
+
+          <!--sipnosis de ironman3-->
+          </div>
+
+          <div id="cajaprincipal3">
+
+          <!--sipnosis de thor2-->
+
+          <div class="thor2hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="thor-el-mundo-oscuro-original.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="thor the dark world.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+
+          <!--sipnosis de thor2-->
+
+          <!--sipnosis de cap3-->
+           <div class="cap3hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="cap2.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Capitan America The Winter Soldier.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+          <!--sipnosis de cap3-->
+
+          <!--sipnosis de guardianes-->
+
+           <div class="guardianeshover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="guardianes.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Guardians of The Galaxy.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+
+          <!--sipnosis de guardianes-->
+
+          <!--sipnosis de avengers2-->
+               <div class="avengers2hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Avengers-Age-of-Ultron.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Avengers Age of Ultron.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+          <!--sipnosis de avengers2-->
+          </div>
+
+          <div id="cajaprincipal4">
+          
+          <!--sippnosis de antman-->
+
+          <div class="antmanhover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Ant-Man-Logo.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="ant-man.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+
+          <!--sippnosis de antman-->
+
+          <!--sipnosis de civilwar-->
+           
+          
+          <div class="civilwarhover">
+		  	
+             <div  class="contenedor">
+	  
+	             <div class="img-content">
+	   
+	                 <img src="Captain-America.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="civilwar.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+		  </div>
+	     
+	     <!--sipnosis de civilwar-->
+
+       <!--sipnosis de doctor-->
+
+       <div class="doctorhover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Doctor_Strange_-_Logo_Actualizado.png">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Doctor Strange.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+       
+       
+       <!--sipnosis de doctor-->
+
+       <!--sipnosis de guardianes2-->
+
+       <div class="guardianes2hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Guardians_of_the_Galaxy_Vol._2_-_Logo_Actualizado.png">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="guardians of the galaxy vol.2.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+
+       <!--sipnosis de guardianes2-->
+
+
+         </div>
+
+         <div id="cajaprincipal5">
+
+         <!--sipnosis de spiderman-->
+          
+          <div class="spidermanhover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="spiderman.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Spiderman Homecoming.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         
+         <!--sipnosis de spiderman-->
+
+
+         <!--sipnosis de thor3-->
+          <div class="thor3hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="thor3.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Tor Ragnarok.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         <!--sipnosis de thor3-->
+         
+         <!--sipnosis de black-->
+
+         <div class="blackhover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="balckpanther.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Black Panther.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         
+         <!--sipnosis de black-->
+
+         <!--sipnosis de avengers3-->
+
+         <div class="avengers3hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Avengers_Infinity_War_logo_update.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Avengers Infinity War.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+
+         <!--sipnosis de avengers3-->
+
+         </div>
+
+         <div id="cajaprincipal5">
+
+         <!--sipnosis de antman2-->
+         <div class="antman2hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="Ant-Man_&_The_Wasp_-_Logo.png">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="ant-man and the wasp.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         <!--sipnosis de antman2-->
+
+         <!--sionosis de capitana-->
+         <div class="capitanahover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="capitana marvel.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Captain Marvel.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         <!--sipnosis de capitana-->
+
+         <!--sipnosis de avengers4-->
+         <div class="avengers4hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="vengadores-4-logo-morado.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Avengers 4.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         <!--sipnosis de avengers4-->
+
+         <!--sipnosis de spiderman2-->
+         <div class="spiderman2hover">
+        
+             <div  class="contenedor">
+    
+               <div class="img-content">
+     
+                   <img src="spider-man-far-from-home.jpg">
+                 
+                  <div class="texto">
+        
+                     <h1><a href="Spiderman Far From Home.html"><font face="Masked Marvel">Sipnosis</font></a></h1>
+       
+                  </div>
+      
+                 </div>
+     
+             </div>
+
+      </div>
+         <!--sipnosis de spiderman2-->
+
+         </div>
