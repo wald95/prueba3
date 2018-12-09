@@ -1,0 +1,3 @@
+tamaño original
+width: 845 px
+heigth:1250 px
